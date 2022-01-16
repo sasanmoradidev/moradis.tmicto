@@ -1,0 +1,192 @@
+@namespace moradis.tmicto
+@inherits ThemeBase
+@{
+    var date = DateTime.Now.ToShortDateString();
+    var message = @ThemePath;
+}
+<main role="main">
+	<div id="ControlPanelWrapper">
+		<UserProfile /> <Login /> <ControlPanel />
+	</div>
+	<Pane Name="@PaneNames.Admin" />
+	<div class="skin_wrapper f-skin-tehransmart-layertwo inner-layertwo">
+	  <!--start skin header-->
+	  <header class="skin_header">
+		<div class="skin_width row">
+		  <div class="header_style clearafter">
+			<div class="logo_style"> 
+			  <!--site logo-->
+			  <div class="site_logo">
+				<img src="/images/logo-top-menu-v1.png">
+			  </div>
+			  <!--mobile menu button-->
+			  <div class="mobile_nav"><a href="#" class="menuclick"><img alt="Menu" class="click_img" src="/images/blank.gif" /></a></div>
+			</div>
+			<!--start skin menu-->
+			<nav class="menu_style">
+			  <Menu Orientation="Horizontal" />
+			</nav>
+			<!--end skin menu-->
+			<div class="headerpane_style">
+			  <div class="headerpane"><Pane Name="HeaderPane" /></div>
+			  
+			</div>
+		  </div>
+		</div>
+	  </header>
+	  <!--end skin header--> 
+
+		<!--start skin main-->
+		
+	<section class="skin_main">
+		<div class="banner_style">
+			<div class="bannerpane"><Pane Name="BannerPane" /></div>
+		</div>
+	</section>
+<section class="skin_main">
+        <div class="row dnnpane">
+					<div class="skin_width col-date-search">
+						<div class="skin_content">
+							<div class="datebox">
+							  
+							</div>
+						</div>
+					</div>
+
+        </div>
+</section>
+    <section class="skin_main">
+        <div class="skin_width">
+            <div class="skin_content">
+                <div class="row dnnpane">
+                    <div class="content_grid12 col-sm-12">
+					<Pane Name="ContentPane" />					
+					</div>
+                </div>
+                <div class="row dnnpane">
+				    <div class="one_grid8 col-sm-8"><Pane Name="OneGrid8" /></div>
+                    <div class="one_grid4 col-sm-4"><Pane Name="OneGrid4" /></div>
+
+                </div>
+                <div class="row dnnpane">
+                    <div class="two_grid6a col-sm-6"><Pane Name="TwoGrid6A" /></div>
+                    <div class="two_grid6b col-sm-6"><Pane Name="TwoGrid6B" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div class="three_grid4a col-sm-4"><Pane Name="ThreeGrid4A" /></div>
+                    <div class="three_grid4b col-sm-4"><Pane Name="ThreeGrid4B" /></div>
+                    <div class="three_grid4c col-sm-4"><Pane Name="ThreeGrid4C" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div class="four_grid3a col-sm-3"><Pane Name="FourGrid3A" /></div>
+                    <div class="four_grid3b col-sm-3"><Pane Name="FourGrid3B" /></div>
+                    <div class="four_grid3c col-sm-3"><Pane Name="FourGrid3C" /></div>
+                    <div class="four_grid3d col-sm-3"><Pane Name="FourGrid3D" /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skin_main">
+        <div class="f-skin_width_fullwidth" id="f-level1">
+            <div class="skin_content">
+                <div class="row dnnpane">
+                    <div class="five_grid12 col-sm-12">
+					<Pane Name="FiveGrid12" />
+					</div>
+                </div>
+				<div class="row dnnpane greenpane" id="shahrnegar">
+                    <div class="six_grid12 col-sm-12"><Pane Name="AGrid12" /></div>
+                </div>
+				<div class="row dnnpane graypane" id="khadamat">
+                    <div class="six_grid12 col-sm-12"><Pane Name="BGrid12" /></div>
+                </div>
+				<div class="row dnnpane">
+                    <div class="six_grid12 col-sm-12">
+						<Pane Name="CGrid12" />
+					</div>
+                </div>				
+            </div>
+        </div>
+    </section>
+    <section class="skin_main">
+        <div class="f-skin_width_fullwidth" id="f-level2">
+            <div class="skin_content">
+                <div class="row dnnpane">
+                    <div class="six_grid8 col-sm-8"><Pane Name="SixGrid8" /></div>
+                    <div class="six_grid4 col-sm-4"><Pane Name="SixGrid4" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div class="seven_grid3a col-sm-3"><Pane Name="SevenGrid3A" /></div>
+                    <div class="seven_grid3b col-sm-3"><Pane Name="SevenGrid3B" /></div>
+                    <div class="seven_grid3c col-sm-3"><Pane Name="SevenGrid3C" /></div>
+                    <div class="seven_grid3d col-sm-3"><Pane Name="SevenGrid3D" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div class="eight_grid4a col-sm-4"><Pane Name="EightGrid4A" /></div>
+                    <div class="eight_grid4b col-sm-4"><Pane Name="EightGrid4B" /></div>
+                    <div class="eight_grid4c col-sm-4"><Pane Name="EightGrid4C" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div class="nine_grid6a col-sm-6"><Pane Name="NineGrid6A" /></div>
+                    <div class="nine_grid6b col-sm-6"><Pane Name="NineGrid6B" /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skin_main">
+        <div class="f-skin_width_fullwidth" id="f-level3">
+            <div class="skin_content">
+                <div class="row dnnpane search-box">
+				
+				   <div class="ten_grid12 col-sm-12"><Pane Name="levelGrid12" /></div>
+                </div>
+				 <div class="row dnnpane lightblue" >
+                    <div class="ten_grid12 col-sm-12"><Pane Name="LastGrid12" /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end skin main-->
+    <!--start skin footer-->
+    <footer class="skin_footer">
+        <div class="skin_width">
+
+            <div class="footerpane_style">
+			    <div class="row dnnpane">
+                    <div class="footerpane col-sm-12"><Pane Name="FooterPane" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div class="footer_grid3a col-sm-6"><Pane Name="FooterGrid3A" /></div>
+                    <div class="footer_grid3b col-sm-3"><Pane Name="FooterGrid3B" /></div>
+                    <div class="footer_grid3c col-sm-3"><Pane Name="FooterGrid3C" /></div>
+                </div>
+
+            </div>
+		    <div class="footer_bottom clearafter">
+                <div class="copyright_style">
+				
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end skin footer-->
+    <a href="#top" id="top-link" title="Top"> </a> </div>
+
+</main>
+
+@code {
+    public override string Name => "Inner-theme";
+
+    public override string Panes => PaneNames.Admin + ",HeaderPane,BannerPane,ContentPane,OneGrid8,OneGrid4,TwoGrid6A,TwoGrid6B,ThreeGrid4A,ThreeGrid4B,ThreeGrid4C,FourGrid3A,FourGrid3B,FourGrid3C,FourGrid3D,FiveGrid12,AGrid12,BGrid12,CGrid12,SixGrid8,SixGrid4,SevenGrid3A,SevenGrid3B,SevenGrid3C,SevenGrid3D,EightGrid4A,EightGrid4B,EightGrid4C,NineGrid6A,NineGrid6B,levelGrid12,LastGrid12,FooterPane,FooterGrid3A,FooterGrid3B,FooterGrid3C";
+
+    public override List<Resource> Resources => new List<Resource>()
+    {
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css", Integrity = "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC", CrossOrigin = "anonymous" },
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = ThemePath() + "skin.css" },
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = ThemePath() + "Layertwo-inner2.css" },
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = ThemePath() + "Theme.css" },
+        new Resource { ResourceType = ResourceType.Script, Bundle = "Bootstrap", Url = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js", Integrity = "sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM", CrossOrigin = "anonymous" },
+        new Resource { ResourceType = ResourceType.Script, Url = "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" }
+        
+    };
+}

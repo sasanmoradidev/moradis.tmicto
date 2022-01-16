@@ -1,0 +1,16 @@
+D:\moradis.tmicto\Client\bin\Debug\net6.0\moradis.tmicto.Client.Oqtane.staticwebassets.runtime.json
+D:\moradis.tmicto\Client\bin\Debug\net6.0\moradis.tmicto.Client.Oqtane.deps.json
+D:\moradis.tmicto\Client\bin\Debug\net6.0\moradis.tmicto.Client.Oqtane.dll
+D:\moradis.tmicto\Client\bin\Debug\net6.0\ref\moradis.tmicto.Client.Oqtane.dll
+D:\moradis.tmicto\Client\bin\Debug\net6.0\moradis.tmicto.Client.Oqtane.pdb
+D:\moradis.tmicto\Client\obj\Debug\net6.0\moradis.tmicto.Client.csproj.AssemblyReference.cache
+D:\moradis.tmicto\Client\obj\Debug\net6.0\moradis.tmicto.Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\moradis.tmicto\Client\obj\Debug\net6.0\moradis.tmicto.Client.AssemblyInfoInputs.cache
+D:\moradis.tmicto\Client\obj\Debug\net6.0\moradis.tmicto.Client.AssemblyInfo.cs
+D:\moradis.tmicto\Client\obj\Debug\net6.0\moradis.tmicto.Client.csproj.CoreCompileInputs.cache
+D:\moradis.tmicto\Client\obj\Debug\net6.0\staticwebassets.build.json
+D:\moradis.tmicto\Client\obj\Debug\net6.0\staticwebassets.development.json
+D:\moradis.tmicto\Client\obj\Debug\net6.0\scopedcss\bundle\moradis.tmicto.Client.Oqtane.styles.css
+D:\moradis.tmicto\Client\obj\Debug\net6.0\moradis.tmicto.Client.Oqtane.dll
+D:\moradis.tmicto\Client\obj\Debug\net6.0\ref\moradis.tmicto.Client.Oqtane.dll
+D:\moradis.tmicto\Client\obj\Debug\net6.0\moradis.tmicto.Client.Oqtane.pdb

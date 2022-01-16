@@ -1,0 +1,8 @@
+@namespace moradis.tmicto
+@inherits ContainerBase
+
+	<ModuleInstance />
+
+@code {
+    public override string Name => "NoContainer";
+}

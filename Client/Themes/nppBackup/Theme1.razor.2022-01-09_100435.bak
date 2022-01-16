@@ -1,0 +1,189 @@
+@namespace moradis.tmicto
+@inherits ThemeBase
+
+<main role="main">
+<div id="ControlPanelWrapper">
+    <UserProfile /> <Login /> <ControlPanel />
+</div>
+<Pane Name="@PaneNames.Admin" />
+<div class="skin_wrapper f-skin-tehransmart">
+	<div class="list-icons">
+		<div class="icon">  <a href="#khadamat" id="link3" ><div class="border" ><img src="/images/icons-section-left/icons02.png" /></div></a></div>
+		<div class="icon">  <a href="#section-news" id="link1" ><div class="border" ><img src="/images/icons-section-left/icons01.png" /></div></a></div>
+		<div class="icon">  <a href="#section-my-tehran" id="link6" ><div class="border" ><img src="/images/icons-section-left/icons06.png" /></div></a></div>
+		<div class="icon">  <a href="#section-banner" id="link4" ><div class="border" ><img src="/images/icons-section-left/icons04.png" /></div></a></div>
+		<div class="icon">  <a href="#shahrnegar" id="link2"><div class="border" ><img src="/images/icons-section-left/icons03.png" /></div></a></div>
+		<div class="icon">  <a href="#info-tmicto" id="link5" ><div class="border" ><img src="/images/icons-section-left/icon-left-menu-v1.png" /></div></a></div>	
+	</div>
+    <!--start skin banner-->
+    <section class="banner_bg">
+        <div class="skin_width">
+			<div class="skin_header f-mobile menu-site">
+				<!--mobile menu button-->
+				<div class="mobile_nav"><a href="#" class="menuclick"><img alt="Menu" class="click_img" src="images/blank.gif" /></a></div>
+				<!--start skin menu-->
+				<nav class="menu_style">
+				  <Menu Orientation="Horizontal" />
+				</nav>
+				<!--end skin menu-->
+			</div>
+            <!-- video-slider-pane -->
+			<div class="banner_style">
+                <div id="BannerPane" class="bannerpane">
+				<Pane Name="BannerPane" />		
+				</div>
+            </div>
+			<div class="logo">
+				<Logo />
+			</div>
+			<!-- scroll-section -->
+    
+
+<div class="scroll-container">
+<div class="scroll">&nbsp;</div>
+
+<div class="scroll fade-one">&nbsp;</div>
+
+<div class="scroll fade-two">&nbsp;</div>
+</div>			
+			<div class="row dnnpane icons-pane">
+                    <div id="OneGridrow6a" class="one_grid6 col-sm-6"><Pane Name="OneGridrow6a" /></div>
+                    <div id="OneGridrow6b" class="one_grid6 col-sm-6"><Pane Name="OneGridrow6b" /></div>
+            </div>   
+
+	   </div>
+    </section>
+    <!--end skin banner-->
+    <!--start skin main-->
+    <section class="skin_main">
+        <div class="skin_width">
+            <div class="skin_content">
+				<div class="row dnnpane graypane" id="khadamat">
+                    <div id="BGrid12" class="six_grid12 col-sm-12"><Pane Name="BGrid12" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="ContentPane" class="content_grid12 col-sm-12">	
+					<Pane Name="ContentPane" />					
+					</div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="OneGrid4" class="one_grid4 col-sm-4"><Pane Name="OneGrid4" /></div>
+                    <div id="OneGrid8" class="one_grid8 col-sm-8"><Pane Name="OneGrid8" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="TwoGrid6A" class="two_grid6a col-sm-6"><Pane Name="TwoGrid6A" /></div>
+                    <div id="TwoGrid6B" class="two_grid6b col-sm-6"><Pane Name="TwoGrid6B" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="ThreeGrid4A" class="three_grid4a col-sm-4"><Pane Name="ThreeGrid4A" /></div>
+                    <div id="ThreeGrid4B" class="three_grid4b col-sm-4"><Pane Name="ThreeGrid4B" /></div>
+                    <div id="ThreeGrid4C" class="three_grid4c col-sm-4"><Pane Name="ThreeGrid4C" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="FourGrid3A" class="four_grid3a col-sm-3"><Pane Name="FourGrid3A" /></div>
+                    <div id="FourGrid3B" class="four_grid3b col-sm-3"><Pane Name="FourGrid3B" /></div>
+                    <div id="FourGrid3C" class="four_grid3c col-sm-3"><Pane Name="FourGrid3C" /></div>
+                    <div id="FourGrid3D" class="four_grid3d col-sm-3"><Pane Name="FourGrid3D" /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skin_main">
+        <div class="f-skin_width_fullwidth" id="f-level1">
+            <div class="skin_content">
+				<div class="row dnnpane">
+                    <div id="CGrid12" class="six_grid12 col-sm-12"><Pane Name="CGrid12" /></div>
+                </div>	
+				<div class="row dnnpane greenpane" id="shahrnegar">
+                    <div id="AGrid12" class="six_grid12 col-sm-12"><Pane Name="AGrid12" /></div>
+                </div>
+
+                <div class="row dnnpane">
+                    <div id="FiveGrid12" class="five_grid12 col-sm-12"><Pane Name="FiveGrid12" /></div>
+                </div>			
+            </div>
+        </div>
+    </section>
+    <section class="skin_main">
+        <div class="f-skin_width_fullwidth" id="f-level2">
+            <div class="skin_content">
+                <div class="row dnnpane">
+                    <div id="SixGrid8" class="six_grid8 col-sm-8"><Pane Name="SixGrid8" /></div>
+                    <div id="SixGrid4" class="six_grid4 col-sm-4"><Pane Name="SixGrid4" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="SevenGrid3A" class="seven_grid3a col-sm-3"><Pane Name="SevenGrid3A" /></div>
+                    <div id="SevenGrid3B" class="seven_grid3b col-sm-3"><Pane Name="SevenGrid3B" /></div>
+                    <div id="SevenGrid3C" class="seven_grid3c col-sm-3"><Pane Name="SevenGrid3C" /></div>
+                    <div id="SevenGrid3D" class="seven_grid3d col-sm-3"><Pane Name="SevenGrid3D" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="EightGrid4A" class="eight_grid4a col-sm-4"><Pane Name="EightGrid4A" /></div>
+                    <div id="EightGrid4B" class="eight_grid4b col-sm-4"><Pane Name="EightGrid4B" /></div>
+                    <div id="EightGrid4C" class="eight_grid4c col-sm-4"><Pane Name="EightGrid4C" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="NineGrid6A" class="nine_grid6a col-sm-6"><Pane Name="NineGrid6A" /></div>
+                    <div id="NineGrid6B" class="nine_grid6b col-sm-6"><Pane Name="NineGrid6B" /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skin_main">
+        <div class="f-skin_width_fullwidth" id="f-level3">
+            <div class="skin_content">
+                <div class="row dnnpane search-box">
+					
+                </div>
+				 <div class="row dnnpane lightblue" >
+                    <div id="LastGrid12" class="ten_grid12 col-sm-12"><Pane Name="LastGrid12" /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end skin main-->
+    <!--start skin footer-->
+    <footer class="skin_footer">
+        <div class="skin_width">
+
+            <div class="footerpane_style">
+			    <div class="row dnnpane">
+                    <div id="FooterPane" class="footerpane col-sm-12"><Pane Name="FooterPane" /></div>
+                </div>
+                <div class="row dnnpane">
+                    <div id="FooterGrid3A" class="footer_grid3a col-sm-6"><Pane Name="FooterGrid3A" /></div>
+                    <div id="FooterGrid3B" class="footer_grid3b col-sm-3"><Pane Name="FooterGrid3B" /></div>
+                    <div id="FooterGrid3C" class="footer_grid3c col-sm-3"><Pane Name="FooterGrid3C" /></div>
+                </div>
+            </div>
+		    <div class="footer_bottom clearafter">
+                <div class="copyright_style">
+				
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end skin footer-->
+    <a href="/#top" id="top-link" title="Top"> </a> </div>
+</main>
+
+@code {
+    public override string Name => "Theme1";
+
+    public override string Panes => PaneNames.Admin + ",BannerPane,OneGridrow6a,OneGridrow6b,BGrid12,ContentPane,OneGrid4,OneGrid8,TwoGrid6A,TwoGrid6B,ThreeGrid4A,ThreeGrid4B,ThreeGrid4C,FourGrid3A,FourGrid3B,FourGrid3C,FourGrid3D,CGrid12,AGrid12,FiveGrid12,SixGrid8,SixGrid4,SevenGrid3A,SevenGrid3B,SevenGrid3C,SevenGrid3D,EightGrid4A,EightGrid4B,EightGrid4C,NineGrid6A,NineGrid6B,LastGrid12,FooterPane,FooterGrid3A,FooterGrid3B,FooterGrid3C";
+
+    public override List<Resource> Resources => new List<Resource>()
+    {
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css", Integrity = "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC", CrossOrigin = "anonymous" },
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = ThemePath() + "css/unoslider.css" },
+        
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = ThemePath() + "skin.css" },
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = ThemePath() + "layerone.css" },
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = ThemePath() + "Theme.css" },
+        new Resource { ResourceType = ResourceType.Script, Url = "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" },
+        new Resource { ResourceType = ResourceType.Script, Url = ThemePath() + "js/jquery.hoverIntent.min.js" },
+        new Resource { ResourceType = ResourceType.Script, Url = ThemePath() + "js/unoslider.js" },
+        new Resource { ResourceType = ResourceType.Script, Url = ThemePath() + "js/skin.js" }
+        
+    };
+}

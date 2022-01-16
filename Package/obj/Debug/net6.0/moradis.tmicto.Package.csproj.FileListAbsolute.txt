@@ -1,0 +1,16 @@
+D:\moradis.tmicto\Package\bin\Debug\net6.0\moradis.tmicto.Client.Oqtane.staticwebassets.runtime.json
+D:\moradis.tmicto\Package\bin\Debug\net6.0\moradis.tmicto.Package.deps.json
+D:\moradis.tmicto\Package\bin\Debug\net6.0\moradis.tmicto.Package.dll
+D:\moradis.tmicto\Package\bin\Debug\net6.0\ref\moradis.tmicto.Package.dll
+D:\moradis.tmicto\Package\bin\Debug\net6.0\moradis.tmicto.Package.pdb
+D:\moradis.tmicto\Package\bin\Debug\net6.0\moradis.tmicto.Client.Oqtane.dll
+D:\moradis.tmicto\Package\bin\Debug\net6.0\moradis.tmicto.Client.Oqtane.pdb
+D:\moradis.tmicto\Package\obj\Debug\net6.0\moradis.tmicto.Package.csproj.AssemblyReference.cache
+D:\moradis.tmicto\Package\obj\Debug\net6.0\moradis.tmicto.Package.GeneratedMSBuildEditorConfig.editorconfig
+D:\moradis.tmicto\Package\obj\Debug\net6.0\moradis.tmicto.Package.AssemblyInfoInputs.cache
+D:\moradis.tmicto\Package\obj\Debug\net6.0\moradis.tmicto.Package.AssemblyInfo.cs
+D:\moradis.tmicto\Package\obj\Debug\net6.0\moradis.tmicto.Package.csproj.CoreCompileInputs.cache
+D:\moradis.tmicto\Package\obj\Debug\net6.0\moradis.tmicto.Package.csproj.CopyComplete
+D:\moradis.tmicto\Package\obj\Debug\net6.0\moradis.tmicto.Package.dll
+D:\moradis.tmicto\Package\obj\Debug\net6.0\ref\moradis.tmicto.Package.dll
+D:\moradis.tmicto\Package\obj\Debug\net6.0\moradis.tmicto.Package.pdb

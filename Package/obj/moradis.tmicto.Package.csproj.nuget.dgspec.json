@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\moradis.tmicto\\Package\\moradis.tmicto.Package.csproj": {}
+  },
+  "projects": {
+    "D:\\moradis.tmicto\\Client\\moradis.tmicto.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\moradis.tmicto\\Client\\moradis.tmicto.Client.csproj",
+        "projectName": "moradis.tmicto.Client.Oqtane",
+        "projectPath": "D:\\moradis.tmicto\\Client\\moradis.tmicto.Client.csproj",
+        "packagesPath": "C:\\Users\\moradilahroodi.TEHRAN\\.nuget\\packages\\",
+        "outputPath": "D:\\moradis.tmicto\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\moradilahroodi.TEHRAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Oqtane.Client": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Oqtane.Shared": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\moradis.tmicto\\Package\\moradis.tmicto.Package.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\moradis.tmicto\\Package\\moradis.tmicto.Package.csproj",
+        "projectName": "moradis.tmicto.Package",
+        "projectPath": "D:\\moradis.tmicto\\Package\\moradis.tmicto.Package.csproj",
+        "packagesPath": "C:\\Users\\moradilahroodi.TEHRAN\\.nuget\\packages\\",
+        "outputPath": "D:\\moradis.tmicto\\Package\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\moradilahroodi.TEHRAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\moradis.tmicto\\Client\\moradis.tmicto.Client.csproj": {
+                "projectPath": "D:\\moradis.tmicto\\Client\\moradis.tmicto.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = moradis.tmicto.Client
+build_property.RootNamespace = moradis.tmicto.Client
+build_property.ProjectDir = D:\moradis.tmicto\Client\
+build_property.RazorLangVersion = 3.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\moradis.tmicto\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/moradis.tmicto/Client/Containers/Container1.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udGFpbmVyc1xDb250YWluZXIxLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/moradis.tmicto/Client/Containers/NoContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udGFpbmVyc1xOb0NvbnRhaW5lci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/moradis.tmicto/Client/Themes/Inner-theme.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXElubmVyLXRoZW1lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/moradis.tmicto/Client/Themes/Theme1.razor]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzXFRoZW1lMS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/moradis.tmicto/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
