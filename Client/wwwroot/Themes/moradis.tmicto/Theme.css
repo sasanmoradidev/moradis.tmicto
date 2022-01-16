@@ -1,7 +1,7 @@
 /* Oqtane Styles */
 
 body {
-    padding-top: 7rem;
+    padding-top: 0rem;
 }
 
 .table > :not(caption) > * > * {
@@ -54,12 +54,7 @@ body {
 }
 
 .app-menu .nav-item a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
-}
-
-.app-menu .nav-item a:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: #9fb9d0;
     color: white;
 }
 
@@ -109,4 +104,8 @@ div.app-moduleactions a.dropdown-toggle, div.app-moduleactions div.dropdown-menu
         position: relative;
         top: 60px;
     }
+}
+.app-moduleactions .dropdown-submenu > .dropdown-menu{
+	right: 100%!important;
+	width: 100%;
 }
