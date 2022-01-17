@@ -600,3 +600,128 @@ span.nextTitle {
 		width: 30px;
 	}
 }
+/*livetabs*/
+.livetabscupertino.mleft .mleft.ui-tabs {
+      padding: 0;
+    }
+
+    .livetabscupertino.mleft .mleft.ui-tabs .mleft.ui-tabs-nav li.mleft a {
+      display: block;
+      float: none;
+    }
+
+    .livetabscupertino.mleft .mleft.ui-tabs .mleft.ui-tabs-nav {
+      border-radius: 5px 0 0 5px;
+      webkit-border-radius: 5px 0 0 5px;
+      -moz-border-radius: 5px 0 0 5px;
+      padding: .2em .1em .2em .2em;
+      margin: 0.5% 1% 0.5% 0.5%;
+      float: left;
+      width: 25%;
+    }
+
+    .livetabscupertino.mleft .mleft.ui-tabs .mleft.ui-tabs-nav li.mleft.ui-tabs-selected {
+      padding-bottom: 0;
+      padding-right: .1em;
+    }
+
+    .livetabscupertino.mleft .mleft.ui-tabs .mleft.ui-tabs-panel {
+      width: 69%;
+      padding: 1.5% 1.5% 1.5% 0;
+      float: right;
+    }
+
+    .livetabscupertino.mleft .mleft.ui-tabs .mleft.ui-tabs-nav li.mleft {
+      list-style: none;
+      white-space: normal;
+      border-radius: 5px 0 0 5px;
+      webkit-border-radius: 3px 0 0 5px;
+      -moz-border-radius: 5px 0 0 5px;
+      clear: left;
+      width: 100%;
+      border-bottom-width: 1px;
+      border-right-width: 0;
+      margin: 0 0 0.2em;
+    }
+
+    @media screen and (max-width: 480px) {
+      .livetabscupertino.mleft .mleft.ui-tabs .mleft.ui-tabs-nav {
+        border-radius: 0;
+        webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        padding-right: .2em;
+        margin-right: 0.5%;
+        float: none;
+        width: auto;
+      }
+
+      .livetabscupertino.mleft .mleft.ui-tabs .mleft.ui-tabs-panel {
+        width: auto;
+        float: none;
+        padding-left: 1.5%;
+      }
+
+      .livetabscupertino.mleft .mleft.ui-tabs .mleft.ui-tabs-nav li.mleft {
+        border-radius: 0;
+        webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        width: auto;
+      }
+    }
+
+    .livetabscupertino .ui-tabs .ui-tabs-hide {
+      display: none !important;
+    }
+
+    .livetabscupertino .ui-tabs .ui-tabs-panel {
+      border-width: 0;
+      background: none;
+    }
+
+    .livetabscupertino .ui-tabs .ui-tabs-nav li {
+      margin: 0 0.2em -1px 0;
+    }
+
+    .livetabscupertino .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+      padding-bottom: 1px;
+      border-bottom-width: 0;
+    }
+
+    .livetabscupertino .ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+      cursor: text;
+    }
+
+    .livetabscupertino .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+      cursor: pointer;
+    }
+
+    .livetabscupertino .ui-tabs .ui-tabs-nav li a {
+      padding: 0.5em 2em;
+    }
+
+    @media screen and (max-width: 480px) {
+      .livetabscupertino .ui-tabs {
+        width: 98%
+      }
+
+      .livetabscupertino .ui-tabs .ui-tabs-nav {
+        border-radius: 0;
+        -moz-border-radius: 0;
+        webkit-border-radius: 0;
+      }
+
+      .livetabscupertino .ui-tabs .ui-tabs-nav li {
+        width: 100% !important;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        webkit-border-radius: 0;
+      }
+
+      .livetabscupertino .ui-tabs .ui-tabs-nav li a {
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+      }
+    }
+/*end livetabs*/

@@ -359,3 +359,133 @@ $(document).ready(function(){
 });
 
 });
+//<![CDATA[
+
+      if (typeof(jQuery("#LiveTabsWrapper3045").tabs) == 'undefined') {
+        jQuery.getScript('./DesktopModules/LiveTabs/Resources/JS/cookie.min.js', function() {
+          jQuery(function() {
+            jQuery('#LiveTabsWrapper3045').tabs({
+              create: function(event, ui) {
+                var LTLaunchLink = window.location.hash.indexOf('#3045', 0);
+                var LTOldLaunchLink = window.location.hash.indexOf('#LiveTabsContent', 0);
+                if (LTLaunchLink > -1) {
+                  LTLaunchLink = 'lt-' + window.location.hash.replace('#', '');
+                  CallSelf(LTLaunchLink);
+                  SelectTab3045(LTLaunchLink);
+                } else if (LTOldLaunchLink > -1) {
+                  LTLaunchLink = 'lt-' + window.location.hash.replace('#LiveTabsContent', '');
+                  CallSelf(LTLaunchLink);
+                  SelectTab3045(LTLaunchLink);
+                }
+                jQuery("#LiveTabsWrapper3045").addClass('ui-helper-clearfix');
+                jQuery("#LiveTabsWrapper3045 .mleft.ui-tabs-nav li.mleft").removeClass('ui-corner-top').addClass('ui-corner-left')
+              },
+              select: function(event, ui) {
+                if (ui.tab == undefined && ui.newTab != undefined) {
+                  var curTab = ui.newTab;
+                  if (typeof curTab === 'undefined' || (typeof curTab != 'undefined' && curTab.length == 0)) {
+                    if (typeof ui.oldTab != 'undefined' && ui.oldTab.length > 0) {
+                      curTab = ui.oldTab;
+                    }
+                  }
+                  var tabhref = jQuery(curTab).children('a').attr('href');
+                  if (tabhref && tabhref.indexOf('#lt-') >= 0) window.location.hash = tabhref.replace('lt-', '');
+                } else {
+                  window.location.hash = ui.tab.hash.replace('lt-', '');
+                }
+                var LiveTabsWrapper3045tabsindex = ui.index;
+                if (LiveTabsWrapper3045tabsindex == undefined) {
+                  LiveTabsWrapper3045tabsindex = ui.newTab.index();
+                }
+                jQuery('#LiveTabsWrapper3045_SelectedIndex').val(LiveTabsWrapper3045tabsindex);
+                return true;
+              },
+              beforeActivate: function(event, ui) {
+                if (ui.tab == undefined && ui.newTab != undefined) {
+                  var curTab = ui.newTab;
+                  if (typeof curTab === 'undefined' || (typeof curTab != 'undefined' && curTab.length == 0)) {
+                    if (typeof ui.oldTab != 'undefined' && ui.oldTab.length > 0) {
+                      curTab = ui.oldTab;
+                    }
+                  }
+                  var tabhref = jQuery(curTab).children('a').attr('href');
+                  if (tabhref && tabhref.indexOf('#lt-') >= 0) window.location.hash = tabhref.replace('lt-', '');
+                } else {
+                  window.location.hash = ui.tab.hash.replace('lt-', '');
+                }
+                var LiveTabsWrapper3045tabsindex = ui.index;
+                if (LiveTabsWrapper3045tabsindex == undefined) {
+                  LiveTabsWrapper3045tabsindex = ui.newTab.index();
+                }
+                jQuery('#LiveTabsWrapper3045_SelectedIndex').val(LiveTabsWrapper3045tabsindex);
+                return true;
+              }
+            });
+          });
+        });
+      } else {
+        jQuery(function() {
+          jQuery('#LiveTabsWrapper3045').tabs({
+            create: function(event, ui) {
+              var LTLaunchLink = window.location.hash.indexOf('#3045', 0);
+              var LTOldLaunchLink = window.location.hash.indexOf('#LiveTabsContent', 0);
+              if (LTLaunchLink > -1) {
+                LTLaunchLink = 'lt-' + window.location.hash.replace('#', '');
+                CallSelf(LTLaunchLink);
+                SelectTab3045(LTLaunchLink);
+              } else if (LTOldLaunchLink > -1) {
+                LTLaunchLink = 'lt-' + window.location.hash.replace('#LiveTabsContent', '');
+                CallSelf(LTLaunchLink);
+                SelectTab3045(LTLaunchLink);
+              }
+              jQuery("#LiveTabsWrapper3045").addClass('ui-helper-clearfix');
+              jQuery("#LiveTabsWrapper3045 .mleft.ui-tabs-nav li.mleft").removeClass('ui-corner-top').addClass('ui-corner-left')
+            },
+            select: function(event, ui) {
+              if (ui.tab == undefined && ui.newTab != undefined) {
+                var curTab = ui.newTab;
+                if (typeof curTab === 'undefined' || (typeof curTab != 'undefined' && curTab.length == 0)) {
+                  if (typeof ui.oldTab != 'undefined' && ui.oldTab.length > 0) {
+                    curTab = ui.oldTab;
+                  }
+                }
+                var tabhref = jQuery(curTab).children('a').attr('href');
+                if (tabhref && tabhref.indexOf('#lt-') >= 0) window.location.hash = tabhref.replace('lt-', '');
+              } else {
+                window.location.hash = ui.tab.hash.replace('lt-', '');
+              }
+              var LiveTabsWrapper3045tabsindex = ui.index;
+              if (LiveTabsWrapper3045tabsindex == undefined) {
+                LiveTabsWrapper3045tabsindex = ui.newTab.index();
+              }
+              jQuery('#LiveTabsWrapper3045_SelectedIndex').val(LiveTabsWrapper3045tabsindex);
+              return true;
+            },
+            beforeActivate: function(event, ui) {
+              if (ui.tab == undefined && ui.newTab != undefined) {
+                var curTab = ui.newTab;
+                if (typeof curTab === 'undefined' || (typeof curTab != 'undefined' && curTab.length == 0)) {
+                  if (typeof ui.oldTab != 'undefined' && ui.oldTab.length > 0) {
+                    curTab = ui.oldTab;
+                  }
+                }
+                var tabhref = jQuery(curTab).children('a').attr('href');
+                if (tabhref && tabhref.indexOf('#lt-') >= 0) window.location.hash = tabhref.replace('lt-', '');
+              } else {
+                window.location.hash = ui.tab.hash.replace('lt-', '');
+              }
+              var LiveTabsWrapper3045tabsindex = ui.index;
+              if (LiveTabsWrapper3045tabsindex == undefined) {
+                LiveTabsWrapper3045tabsindex = ui.newTab.index();
+              }
+              jQuery('#LiveTabsWrapper3045_SelectedIndex').val(LiveTabsWrapper3045tabsindex);
+              return true;
+            }
+          });
+        });
+      } //]]>
+$(document).ready(function(){
+  $(".z1asCe").click(function(){
+    $("#ControlPanelWrapper").slideToggle("slow");
+  });
+});
